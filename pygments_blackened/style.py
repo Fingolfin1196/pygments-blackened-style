@@ -34,7 +34,7 @@ class BlackenedStyle(Style):
         Name.Builtin:               'bold',
         # Name.Function:              '#00aa00',
         Name.Class:                 'underline #00aa00',
-        Name.Namespace:             'underline #00aaaa',
+        # Name.Namespace:             'underline #00aaaa',
         # Name.Variable:              '#aa0000',
         Name.Constant:              '#aa0000',
         Name.Entity:                'bold #800',
