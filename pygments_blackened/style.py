@@ -62,7 +62,7 @@ class BlackenedStyle(Style):
         String.Backtick:               "",
         String.Char:                   "",
         String.Delimiter:              "",
-        String.Doc:                    "",
+        String.Doc:                    "italic",
         String.Double:                 "",
         String.Escape:                 "bold",
         String.Heredoc:                "",
