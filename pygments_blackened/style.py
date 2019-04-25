@@ -3,7 +3,7 @@
     pygments.styles.blackened
     ~~~~~~~~~~~~~~~~~~~~~
 
-    Based on bw but a bit more varied.
+    Black-and-white style based on various built-in style, with most similarities to bw.
 """
 
 from pygments.style import Style
@@ -13,7 +13,7 @@ from pygments.token import Keyword, Name, Comment, String, Error, \
 
 class BlackenedStyle(Style):
     """
-    Based on bw but a bit more varied. Good for use in LaTeX code.
+    Based on various built-in styles. Good for use in LaTeX code.
     """
 
     background_color = "#ffffff"
@@ -39,17 +39,17 @@ class BlackenedStyle(Style):
 
         Name:                      "",
         Name.Attribute:            "",
-        Name.Builtin:              "",
+        Name.Builtin:              "bold italic",
         Name.Builtin.Pseudo:       "",
         Name.Class:                "bold",
         Name.Constant:             "",
         Name.Decorator:            "",
         Name.Entity:               "bold",
         Name.Exception:            "bold",
-        Name.Function:             "",
+        Name.Function:             "italic",
         Name.Property:             "",
         Name.Label:                "",
-        Name.Namespace:            "bold",
+        Name.Namespace:            "bold italic",
         Name.Other:                "",
         Name.Tag:                  "bold",
         Name.Variable:             "",
