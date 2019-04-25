@@ -2,9 +2,6 @@
 A black-and-white pygments style based originally on the `emacs` and `bw` styles and intended for use with the LaTeX package `minted`.
 It is improved in comparison to the built-in `bw` style in that some further keywords are now bold, as well as some other changes that seem reasonable.
 
-Wherever I have not yet seen part of the style used, the default colouring has been kept.
-When you find code that results in coloured parts – especially when using `minted` –, please open an issue and I'll have a look at it.
-
 ## Installation
 On Linux, execute:
 ```
