@@ -20,13 +20,13 @@ class BlackenedStyle(Style):
     default_style = ""
 
     styles = {
-        Whitespace:                 '#fff',  # bbbbbb
+        Whitespace:                 '#fff',
 
         Comment:                    'italic',
         Comment.Preproc:            'bold italic',
         # Comment.Special:            'italic #0000aa',
 
-        Keyword:                    'bold',  # 0000aa
+        Keyword:                    'bold',
         # Keyword.Type:               '#00aaaa',
 
         Operator.Word:              '#0000aa',
@@ -42,22 +42,22 @@ class BlackenedStyle(Style):
         Name.Tag:                   'bold #1e90ff',
         Name.Decorator:             '#888888',
 
-        String:                     '#000',  # aa5500
+        String:                     '#000',
         # String.Symbol:              '#0000aa',
         # String.Regex:               '#009999',
 
-        Number:                     '#000',  # 009999
+        Number:                     '#000',
 
-        Generic.Heading:            'bold',  # 000080
-        Generic.Subheading:         'bold',  # 800080
-        Generic.Deleted:            '#aa0000',
-        Generic.Inserted:           '#00aa00',
-        Generic.Error:              '#aa0000',
+        Generic.Heading:            'bold',
+        Generic.Subheading:         'bold',
+        #Generic.Deleted:            '#aa0000',
+        #Generic.Inserted:           '#00aa00',
+        #Generic.Error:              '#aa0000',
         Generic.Emph:               'italic',
         Generic.Strong:             'bold',
-        Generic.Prompt:             '#555555',
-        Generic.Output:             '#888888',
-        Generic.Traceback:          '#aa0000',
+        #Generic.Prompt:             '#555555',
+        #Generic.Output:             '#888888',
+        #Generic.Traceback:          '#aa0000',
 
         # Error:                      '#F00 bg:#FAA'
     }
