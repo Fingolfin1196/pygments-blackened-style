@@ -20,44 +20,30 @@ class BlackenedStyle(Style):
     default_style = ""
 
     styles = {
-        Whitespace:                 '#fff',
+        Comment:                   "italic",
+        Comment.Preproc:           "noitalic",
 
-        Comment:                    'italic',
-        Comment.Preproc:            'bold italic',
-        # Comment.Special:            'italic #0000aa',
+        Keyword:                   "bold",
+        # Keyword.Pseudo:            "nobold",
+        # Keyword.Type:              "nobold",
 
-        Keyword:                    'bold',
-        # Keyword.Type:               '#00aaaa',
+        Operator.Word:             "bold",
 
-        Operator.Word:              '#0000aa',
+        Name.Class:                "bold",
+        Name.Namespace:            "bold",
+        Name.Exception:            "bold",
+        Name.Entity:               "bold",
+        Name.Tag:                  "bold",
 
-        Name.Builtin:               'bold',
-        # Name.Function:              '#00aa00',
-        Name.Class:                 'underline #00aa00',
-        # Name.Namespace:             'underline #00aaaa',
-        # Name.Variable:              '#aa0000',
-        Name.Constant:              '#aa0000',
-        Name.Entity:                'bold #800',
-        Name.Attribute:             '#1e90ff',
-        Name.Tag:                   'bold #1e90ff',
-        Name.Decorator:             '#888888',
+        String:                    "#000", #italic
+        String.Interpol:           "bold",
+        String.Escape:             "bold",
 
-        String:                     '#000',
-        # String.Symbol:              '#0000aa',
-        # String.Regex:               '#009999',
+        Generic.Heading:           "bold",
+        Generic.Subheading:        "bold",
+        Generic.Emph:              "italic",
+        Generic.Strong:            "bold",
+        Generic.Prompt:            "bold",
 
-        Number:                     '#000',
-
-        Generic.Heading:            'bold',
-        Generic.Subheading:         'bold',
-        #Generic.Deleted:            '#aa0000',
-        #Generic.Inserted:           '#00aa00',
-        #Generic.Error:              '#aa0000',
-        Generic.Emph:               'italic',
-        Generic.Strong:             'bold',
-        #Generic.Prompt:             '#555555',
-        #Generic.Output:             '#888888',
-        #Generic.Traceback:          '#aa0000',
-
-        # Error:                      '#F00 bg:#FAA'
+        Error:                     "border:#FF0000"
     }
